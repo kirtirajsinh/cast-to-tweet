@@ -1,0 +1,19 @@
+{
+  "name": "cast-tweet",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "crypto-js": "^4.2.0",
+    "hono": "^4.6.8",
+    "oauth-1.0a": "^2.2.6"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^22.8.4",
+    "wrangler": "^3.83.0"
+  }
+}

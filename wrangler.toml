@@ -1,0 +1,37 @@
+name = "cast-tweet"
+main = "src/index.ts"
+compatibility_date = "2024-10-30"
+
+# compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+BEARER_AUTH_TOKEN = "BEARER_AUTH_TOKEN"
+O_Auth_Client_secret = "O_Auth_Client_secret"
+API_KEY = "API_KEY"
+API_KEY_SECRET = "API_KEY_SECRET"
+ACCESS_TOKEN = "ACCESS_TOKEN"
+ACCESS_TOKEN_SECRET = "ACCESS_TOKEN_SECRET"
+Client_Id = "Client_Id"
+Client_secret = "Client_secret"
+NEYNAR_WEBHOOK_SECRET = "NEYNAR_WEBHOOK_SECRET"
+
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+[observability]
+enabled = true
+head_sampling_rate = 1
